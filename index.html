@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky notes</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Yuji+Mai&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="sticky-notes">
+        <div class="sticky-container">
+            <div class="note-content" contenteditable>
+                Create note html,css,js
+            </div>
+            <div class="note-actions">
+                <button class="delete-note" onclick="deleteNote(this)">Delete</button>
+            </div>
+        </div>
+    </div>
+    <div class="create-note" onclick="createNote()">+</div>
+    <script src="app.js"></script>
+    
+</body>
+</html>
